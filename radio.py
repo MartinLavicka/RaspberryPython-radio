@@ -12,23 +12,31 @@ import lcddriver
 import time
 import datetime
 import sys
+import csv
 
-# setup variables
+# ----- SETUP -----
 pin_up = 23
 pin_down = 24
 pin_play = 8
 pin_stop = 25
 pin_off = 22
 
+list_of_stations = "stations.csv"
+
+name = "RasPy Radio v0.7"
+hostname = "google.com"
+# ----- END of SETUP ------
+
 count = 0 
 up = False
 down = False
-name = "RasPy Radio v0.7"
 d_station = 1
 d_volume = 75
-hostname = "google.com"
 
-# stanice
+# Load stations
+with open(list_of_station, 'rb') as f:
+    reader = csv.reader(f)
+    radio_list = list(reader)
 
 playlist = [
 "http://icecast3.play.cz:80/bonton-128.mp3",
