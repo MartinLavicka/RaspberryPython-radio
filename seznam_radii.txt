@@ -1,0 +1,25 @@
+Bonton
+http://icecast3.play.cz:80/bonton-128.mp3
+BlanikCZ
+http://kocka.limemedia.cz:8000/blanikcz128.mp3
+SmoothJazz.com
+http://173.244.199.248:80
+Country Radio
+
+http://icecast4.play.cz:443/country128.mp3
+Radio Egrensis
+http://icecast6.play.cz/egrensis128.mp3
+Dance radio
+http://icecast6.play.cz/dance-radio320.mp3
+Krokodyl
+http://icecast4.play.cz/krokodyl128.mp3
+BBC-World
+http://pool.cdn.lagardere.cz:80/fm-bbc-world-128
+Evropa2
+http://icecast3.play.cz:80/evropa2-128.mp3
+CRO 1
+http://icecast8.play.cz/cro1-128.mp3
+CRO-Plzen
+http://icecast2.play.cz/croplzen128.mp3
+Discover Trance Radio
+http://paris.discovertrance.com:8006
